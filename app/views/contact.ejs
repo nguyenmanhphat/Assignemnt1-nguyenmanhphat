@@ -1,0 +1,65 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1 style="margin-top: 20px;margin-left: 50px;">Welcome to <%= title %> Page</h1>
+    </div>
+
+
+    <section>
+    <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="https://github.com/nguyenmanhphat"><i class='bx bxl-github' ></i></a>   
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+    </div>
+
+    <div style="margin-top: 20px;margin-left: 50px">
+        <h2>Above is my contact information, you can leave your information in the form below.</h2>
+    </div>
+
+
+
+    <form action="result.html" method="get" >
+    <div style="display: block; padding-left: 50px;padding-top: 30px;font-size: 20px;" class="form-contact">
+        <div style="padding-bottom: 10px;">
+            <label for="">Name: </label>
+            <input type="text" placeholder="First name" style="margin-left: 70px">
+            <input type="text" placeholder="Last name">
+        </div>
+        <div style="padding-bottom: 10px;">
+            <label for="">Contact: </label>
+            <input type="text" placeholder="Email" style="margin-left: 55px">
+            <input type="text" placeholder="Phone Number">
+        </div>  
+        
+        <div style="padding-bottom: 10px;">
+            <label for=""></label>
+            <input type="text;" style="margin-left: 70px;padding-bottom: 50px; padding-right: 150px;border-radius: 10px;" placeholder="Your Messege">
+        </div>
+          
+        <button style="border-radius: 5px;font-size: 20px;margin-top: 5px;margin-left: 220px">send</button>
+    </div>
+    </form>
+
+    
+
+
+    </section>
+
+
+    <div>
+        <a href="/about" class="btn" style="position: absolute; margin-left: 100px;margin-top: 50px;" > Back page</a>
+        <a href="/products" class="btn" style="position: absolute; margin-left: 400px;margin-top: 50px;" > Next page</a>
+    </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
